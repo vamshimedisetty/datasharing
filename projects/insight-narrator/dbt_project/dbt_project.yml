@@ -1,0 +1,15 @@
+name: 'insight_narrator'
+version: '1.0.0'
+config-version: 2
+profile: 'insight_narrator'
+
+model-paths: ["models"]
+target-path: "target"
+clean-targets: ["target", "dbt_packages"]
+
+models:
+  insight_narrator:
+    staging:
+      +materialized: view
+    marts:
+      +materialized: table

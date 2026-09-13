@@ -1,0 +1,7 @@
+insight_narrator:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: '../warehouse/insight_narrator.duckdb'
+      schema: main

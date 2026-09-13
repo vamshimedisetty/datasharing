@@ -1,0 +1,19 @@
+version: 2
+
+models:
+  - name: weekly_kpis
+    description: >
+      One row per calendar week, aggregating order volume, revenue, review
+      sentiment, and delivery performance. This is the table narrate.py reads.
+    columns:
+      - name: order_week
+        description: Monday of the ISO week (order_purchase_at truncated to week)
+        tests:
+          - unique
+          - not_null
+      - name: order_count
+        tests:
+          - not_null
+      - name: gross_revenue
+        tests:
+          - not_null
