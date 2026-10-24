@@ -9,6 +9,7 @@ A step-by-step practice track for learning Python. Each topic has:
 
 ```bash
 cd python-prep
+python3 00_basics_challenges.py # start here: 20 beginner challenges
 python3 01_lists_lesson.py      # read the output alongside the code
 python3 01_lists_exercises.py   # fill in the TODOs, re-run until all pass
 ```
@@ -17,6 +18,7 @@ python3 01_lists_exercises.py   # fill in the TODOs, re-run until all pass
 
 | # | Topic | Status |
 |---|-------|--------|
+| 00 | Basics challenges: math, if/else, loops, strings | ✅ |
 | 01 | Lists: create, index, slice, modify, loop, sort | ✅ |
 | 02 | Tuples & sets | ⏳ next |
 | 03 | Dictionaries | ⏳ |
